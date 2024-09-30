@@ -1,6 +1,6 @@
 .contactContainer {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(237, 228, 228);
     align-items: center;
     width: 325px;
     height: 100px;
