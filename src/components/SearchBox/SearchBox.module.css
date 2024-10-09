@@ -1,7 +1,22 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    width: 435px;
-    margin-bottom: 40px;
+.wrap {
+  text-align: center;
+  padding: 10px;
+}
+.input {
+  padding: 4px;
+  padding-left: 8px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 720px) {
+  .input {
+    padding-left: 16px;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text {
+    font-size: 20px;
+  }
 }

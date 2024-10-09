@@ -1,22 +1,34 @@
-.formContainer {
-    border: 2px solid #e9eaee;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 400px;
+.form {
+  border: 1px solid rgba(255, 255, 255, 0.356);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.formWrap {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
+.errText {
+  color: red;
 }
-
 .button {
-    display: flex;
-    width: 150px;
-    margin: 0 auto;
+  margin-top: 10px;
 }
-
+.input {
+  padding: 4px;
+  padding-left: 8px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 720px) {
+  .form {
+    width: fit-content;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text {
+    font-size: 20px;
+  }
+}
